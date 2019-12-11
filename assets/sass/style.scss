@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-feature-settings: "palt";
+  font-feature-settings: "palt";
+  font-size: 14px;
+  line-height: 26px;
+  margin: 0;
+}
+
+
+.pc {
+  display: block
+}
+
+.sp {
+  display: none
+}
+
+.ones-container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+.btn-ones {
+  border: 1px solid black;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  line-height: 1.5;
+  background: #a9d38f;
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  -webkit-box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.41);
+  box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.41);
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+  box-shadow: inset 0 0 0 0 #a9d38f;
+
+  &.header-button {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  &:hover {
+    color: white;
+    transition: .5s ease;
+    transition: .5s ease;
+    box-shadow: inset 500px 0 0 0 #232323;
+
+  }
+}
+
+.h-section-title {
+  padding-top: 5%;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #0f3a24;
+
+  h1 {
+    line-height: 1.5;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .pc {
+    display: none;
+  }
+
+  .sp {
+    display: block;
+  }
+
+  .btn-ones {
+    display: inline-block;
+    border: 1px solid black;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 1.5;
+    background: #a9d38f;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.41);
+    box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.41);
+
+
+    &.header-button {
+      padding-top: 2%;
+      padding-bottom: 2%;
+      padding-left: 3%;
+      padding-right: 3%;
+    }
+
+  }
+}
+
+@import "components/home";
+@import "components/navbar";
+@import "components/footer";
+@import "components/contact";
+@import "components/works";
+@import "components/blogs";
+@import "components/service";
+@import "components/kasai";
+@import "components/about";
+@import "components/strength";

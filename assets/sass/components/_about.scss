@@ -1,0 +1,660 @@
+.about-header-banner {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url(../img/about_banner.png);
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+    .about-title {
+        padding-top: 5%;
+        text-align: center;
+
+        h1 {
+            line-height: 1.5;
+            font-size: 55px;
+            color: white;
+            text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+        }
+
+        h2 {
+            color: white;
+            text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
+        }
+    }
+}
+
+.about-sec {
+    margin-left: 10px;
+    margin-right: 10px;
+
+    .about-body {
+        max-width: 950px;
+        margin: 0 auto;
+
+        .about-title-cnt {
+            padding-top: 8%;
+
+            h1 {
+                font-weight: normal;
+                text-align: center;
+                font-size: 14px;
+            }
+        }
+
+        .about-image-cnt {
+            padding-top: 2%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .about-image-desc {
+            padding-top: 2%;
+
+            p {
+                color: gray;
+                line-height: 1.5;
+                font-size: 16px;
+            }
+
+            .director {
+                padding-top: 10%;
+                text-align: right;
+
+                span {
+                    color: black;
+                }
+            }
+        }
+
+        .about-btn {
+            text-align: center;
+            padding-top: 10%;
+
+            a {
+                padding: 1% 3%;
+            }
+        }
+
+        .about-info {
+            padding-top: 10%;
+
+            .about-info-bg {
+                margin-left: 10px;
+                margin-right: 10px;
+                background-image: url(../img/company_info.png);
+                height: 1260px;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                position: relative;
+
+                .bg-black {
+                    background: #331900;
+                    position: absolute;
+                    top: 0%;
+                    right: 0%;
+                    left: 0%;
+                    width: 100%;
+                    opacity: .5;
+                    height: 1260px;
+                    z-index: 1;
+
+                }
+
+                .info-content-body {
+                    position: absolute;
+                    z-index: 2;
+                    top: 7%;
+                    right: 10%;
+                    left: 10%;
+
+                    .info-title {
+                        max-width: 200px;
+                        margin: 0 auto;
+                        text-align: center;
+                        padding: 2%;
+                        border: 3px solid white;
+                        margin-bottom: 5%;
+
+                        h1 {
+                            font-size: 18px;
+
+                            color: white;
+                        }
+                    }
+
+                    .about-profile {
+                        padding-top: 2%;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: space-evenly;
+                        border-bottom: 1px solid white;
+
+                        .profile-text {
+                            align-self: flex-start;
+                            flex-basis: 30%;
+                            color: white;
+                            font-size: 14px;
+                            padding-bottom: 2%;
+                        }
+
+                        .profile-descipt {
+                            flex-basis: 34%;
+                            color: white;
+                            font-size: 14px;
+                            line-height: 1.5;
+                            padding-bottom: 2%;
+                        }
+                    }
+                }
+
+
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+    .about-header-banner {
+        margin-left: 0px;
+        margin-right: 20px;
+        background-image: url(../img/about_banner.png);
+        height: 300px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+
+        .about-title {
+            padding-top: 10%;
+            text-align: center;
+
+            h1 {
+                line-height: 1.5;
+                font-size: 55px;
+                color: white;
+                text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+            }
+
+            h2 {
+                color: white;
+                text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
+            }
+        }
+    }
+
+    .about-sec {
+        margin-left: 10px;
+        margin-right: 10px;
+
+        .about-body {
+            max-width: 950px;
+            margin: 0 auto;
+
+            .about-title-cnt {
+                padding-top: 8%;
+
+                h1 {
+                    font-weight: normal;
+                    text-align: center;
+                    font-size: 16px;
+                }
+            }
+
+            .about-image-cnt {
+                padding-top: 2%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .about-image-desc {
+                padding-top: 2%;
+
+                p {
+                    color: gray;
+                    line-height: 1.5;
+                    font-size: 13px;
+                }
+
+                .director {
+                    padding-top: 8%;
+                    text-align: right;
+
+                    span {
+                        color: black;
+                    }
+                }
+            }
+
+            .about-btn {
+                text-align: center;
+                padding-top: 10%;
+
+                a {
+                    padding: 1% 3%;
+                }
+            }
+
+            .about-info {
+                padding-top: 10%;
+
+                .about-info-bg {
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    background-image: url(../img/company_info.png);
+                    height: 1260px;
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    position: relative;
+
+                    .bg-black {
+                        background: #331900;
+                        position: absolute;
+                        top: 0%;
+                        right: 0%;
+                        left: 0%;
+                        width: 100%;
+                        opacity: .5;
+                        height: 1260px;
+                        z-index: 1;
+
+                    }
+
+                    .info-content-body {
+                        position: absolute;
+                        z-index: 2;
+                        top: 7%;
+                        right: 10%;
+                        left: 10%;
+
+                        .info-title {
+                            max-width: 200px;
+                            margin: 0 auto;
+                            text-align: center;
+                            padding: 2%;
+                            border: 3px solid white;
+                            margin-bottom: 5%;
+
+                            h1 {
+                                font-size: 18px;
+
+                                color: white;
+                            }
+                        }
+
+                        .about-profile {
+                            padding-top: 2%;
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            justify-content: space-evenly;
+                            border-bottom: 1px solid white;
+
+                            .profile-text {
+                                align-self: flex-start;
+                                flex-basis: 30%;
+                                color: white;
+                                font-size: 14px;
+                                padding-bottom: 2%;
+                            }
+
+                            .profile-descipt {
+                                flex-basis: 34%;
+                                color: white;
+                                font-size: 14px;
+                                line-height: 1.5;
+                                padding-bottom: 2%;
+                            }
+                        }
+                    }
+
+
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 701px) {
+    .about-header-banner {
+        margin-left: 0px;
+        margin-right: 30px;
+        background-image: url(../img/about_banner.png);
+        height: 300px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+
+        .about-title {
+            padding-top: 10%;
+            text-align: center;
+
+            h1 {
+                line-height: 1.5;
+                font-size: 55px;
+                color: white;
+                text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+            }
+
+            h2 {
+                color: white;
+                text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
+            }
+        }
+    }
+
+    .about-sec {
+        margin-left: 10px;
+        margin-right: 10px;
+
+        .about-body {
+            max-width: 950px;
+            margin: 0 auto;
+
+            .about-title-cnt {
+                padding-top: 8%;
+
+                h1 {
+                    font-weight: normal;
+                    text-align: center;
+                    font-size: 14px;
+                }
+            }
+
+            .about-image-cnt {
+                padding-top: 2%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .about-image-desc {
+                padding-top: 2%;
+
+                p {
+                    color: gray;
+                    line-height: 1.5;
+                    font-size: 11px;
+                }
+
+                .director {
+                    padding-top: 8%;
+                    text-align: right;
+
+                    span {
+                        color: black;
+                    }
+                }
+            }
+
+            .about-btn {
+                text-align: center;
+                padding-top: 10%;
+
+                a {
+                    padding: 1% 3%;
+                }
+            }
+
+            .about-info {
+                padding-top: 10%;
+
+                .about-info-bg {
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    background-image: url(../img/company_info.png);
+                    height: 1260px;
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    position: relative;
+
+                    .bg-black {
+                        background: #331900;
+                        position: absolute;
+                        top: 0%;
+                        right: 0%;
+                        left: 0%;
+                        width: 100%;
+                        opacity: .5;
+                        height: 1260px;
+                        z-index: 1;
+
+                    }
+
+                    .info-content-body {
+                        position: absolute;
+                        z-index: 2;
+                        top: 7%;
+                        right: 10%;
+                        left: 10%;
+
+                        .info-title {
+                            max-width: 200px;
+                            margin: 0 auto;
+                            text-align: center;
+                            padding: 2%;
+                            border: 3px solid white;
+                            margin-bottom: 5%;
+
+                            h1 {
+                                font-size: 16px;
+
+                                color: white;
+                            }
+                        }
+
+                        .about-profile {
+                            padding-top: 2%;
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            justify-content: space-evenly;
+                            border-bottom: 1px solid white;
+
+                            .profile-text {
+                                align-self: flex-start;
+                                flex-basis: 30%;
+                                color: white;
+                                font-size: 12px;
+                                padding-bottom: 2%;
+                            }
+
+                            .profile-descipt {
+                                flex-basis: 34%;
+                                color: white;
+                                font-size: 12px;
+                                line-height: 1.5;
+                                padding-bottom: 2%;
+                            }
+                        }
+                    }
+
+
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .about-header-banner {
+        margin-left: 0px;
+        margin-right: 0px;
+        background-image: url(../img/about_banner.png);
+        height: 300px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+
+        .about-title {
+            padding-top: 20%;
+            text-align: center;
+
+            h1 {
+                line-height: 1.5;
+                font-size: 40px;
+                color: white;
+                text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+            }
+
+            h2 {
+                font-size: 16px;
+                color: white;
+                text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
+            }
+        }
+    }
+
+    .about-sec {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 5%;
+
+        .about-body {
+            max-width: 950px;
+            margin: 0 auto;
+
+            .about-title-cnt {
+                padding-top: 8%;
+
+                h1 {
+                    font-weight: normal;
+                    text-align: center;
+                    font-size: 15px;
+                }
+            }
+
+            .about-image-cnt {
+                padding-top: 5%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .about-image-desc {
+                p {
+                    padding-top: 2%;
+                    color: gray;
+                    line-height: 1.5;
+                    font-size: 12px;
+                }
+
+                .director {
+                    padding-top: 10%;
+                    text-align: right;
+
+
+                    span {
+                        color: black;
+                    }
+                }
+            }
+
+            .about-btn {
+                text-align: center;
+                padding-top: 10%;
+
+                a {
+                    padding: 3% 6%;
+                }
+            }
+
+            .about-info {
+                padding-top: 10%;
+
+                .about-info-bg {
+                    margin-left: 0px;
+                    margin-right: 0px;
+                    background-image: url(../img/company_info.png);
+                    height: 1060px;
+                    background-position: center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    position: relative;
+
+                    .bg-black {
+                        background: #331900;
+                        position: absolute;
+                        top: 0%;
+                        right: 0%;
+                        left: 0%;
+                        width: 100%;
+                        opacity: .5;
+                        height: 1060px;
+                        z-index: 1;
+
+                    }
+
+                    .info-content-body {
+                        position: absolute;
+                        z-index: 2;
+                        top: 3%;
+                        right: 5%;
+                        left: 5%;
+
+                        .info-title {
+                            max-width: 200px;
+                            margin: 0 auto;
+                            text-align: center;
+                            padding: 2%;
+                            border: 3px solid white;
+                            margin-bottom: 5%;
+
+                            h1 {
+                                font-size: 16px;
+                                color: white;
+                            }
+                        }
+
+                        .about-profile {
+                            padding-top: 2%;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: space-evenly;
+                            border-bottom: 1px solid white;
+
+                            .profile-text {
+                                align-self: flex-start;
+                                flex-basis: 30%;
+                                color: white;
+                                font-size: 15px;
+                                padding-bottom: 0%;
+                                font-weight: 700;
+                            }
+
+                            .profile-descipt {
+                                align-self: flex-start;
+                                flex-basis: 34%;
+                                color: white;
+                                font-size: 12px;
+                                line-height: 1.5;
+                                padding-bottom: 2%;
+                            }
+                        }
+                    }
+
+
+                }
+            }
+        }
+    }
+}

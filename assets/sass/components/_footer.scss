@@ -1,0 +1,123 @@
+.footer-area {
+    margin-top: 10%;
+    width: 100%;
+
+
+    .footer-content {
+        background: #eee;
+        padding: 3%;
+
+        .footer-logo {
+            text-align: center;
+
+            img {
+                width: 25%;
+            }
+        }
+
+        .footer-company-info {
+            text-align: center;
+            color: gray;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        .footer-menu {
+            max-width: 600px;
+            margin: 0 auto;
+
+            ul {
+                padding-top: 7%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                flex-wrap: wrap;
+
+                li {
+                    padding-top: 2%;
+                    list-style: none;
+                    flex-basis: 25%;
+                    text-align: center;
+
+                    a {
+                        font-family: 'PT Serif', serif;
+                        line-height: 1.5;
+                        color: gray;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-copyright {
+        padding: 2%;
+        font-family: 'PT Serif', serif;
+        text-align: center;
+        font-size: 15px;
+        color: gray;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .footer-area {
+        margin-top: 10%;
+        width: 100%;
+
+
+        .footer-content {
+            background: #eee;
+            padding: 4%;
+
+            .footer-logo {
+                text-align: center;
+
+                img {
+                    width: 40%;
+                }
+            }
+
+            .footer-company-info {
+                text-align: center;
+                color: gray;
+                font-size: 14px;
+                line-height: 1.5;
+            }
+
+            .footer-menu {
+                max-width: 600px;
+                margin: 0 auto;
+
+                ul {
+                    padding-top: 7%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    flex-wrap: wrap;
+
+                    li {
+                        padding-top: 2%;
+                        list-style: none;
+                        flex-basis: 25%;
+                        text-align: center;
+
+                        a {
+                            font-family: 'PT Serif', serif;
+                            line-height: 1.5;
+                            color: gray;
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer-copyright {
+            padding: 4%;
+            font-family: 'PT Serif', serif;
+            text-align: center;
+            font-size: 14px;
+            color: gray;
+        }
+    }
+}

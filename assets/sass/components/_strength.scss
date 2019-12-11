@@ -1,0 +1,499 @@
+.strength-header-banner {
+    margin-left: 3%;
+    margin-right: 3%;
+    background-image: url(../img/strength_banner.png);
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+    .strength-title {
+        padding-top: 5%;
+        text-align: center;
+
+        h1 {
+            line-height: 1.5;
+            font-size: 55px;
+            color: white;
+            text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+        }
+
+        h2 {
+            color: white;
+            text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
+        }
+    }
+}
+
+.strength-sec {
+    .strength-sec-desc {
+        padding-top: 5%;
+        margin: 0 auto;
+        width: 50%;
+        text-align: center;
+
+        h1 {
+            line-height: 1.5;
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 1.5;
+            color: gray;
+
+            &.strength-text-padding {
+                padding-top: 8%;
+            }
+        }
+    }
+
+    .strength-body {
+        padding-top: 5%;
+        max-width: 900px;
+        margin: 0 auto;
+
+        .strenght-area {
+            .strength-content {
+                margin-top: 3.2%;
+                padding: 2% 6%;
+                border: 1px solid #232323;
+                position: relative;
+
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    top: 100%;
+                    left: 50%;
+                    background: #223322;
+                    width: 1px;
+                    height: 30px;
+                }
+
+                &:last-child {
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        top: 100%;
+                        left: 50%;
+                        background: #223322;
+                        width: 1px;
+                        height: 30px;
+                        display: none
+                    }
+                }
+
+                h1 {
+                    font-size: 18px;
+                    line-height: 1.5;
+                }
+
+                p {
+                    padding-top: 1%;
+                    line-height: 1.3;
+                    font-size: 15px;
+                }
+
+                .number {
+                    position: absolute;
+                    top: 0%;
+                    left: 0%;
+                    background: #a9d38f;
+                    font-style: italic;
+                    width: 40px;
+                    height: 40px;
+                    border-right: 1px solid#232323;
+                    border-bottom: 1px solid#232323;
+                    text-align: center;
+                    color: black;
+                    font-size: 25px;
+                    line-height: 1.5;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+    .strength-header-banner {
+        margin-left: 3%;
+        margin-right: 3%;
+        background-image: url(../img/strength_banner.png);
+        height: 300px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+
+        .strength-title {
+            padding-top: 10%;
+            text-align: center;
+
+            h1 {
+                line-height: 1.5;
+                font-size: 55px;
+                color: white;
+                text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+            }
+
+            h2 {
+                color: white;
+                text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
+            }
+        }
+    }
+
+    .strength-sec {
+        margin-left: 10px;
+        margin-right: 10px;
+
+        .strength-sec-desc {
+            padding-top: 5%;
+            margin: 0 auto;
+            width: 50%;
+            text-align: center;
+
+            h1 {
+                line-height: 1.5;
+                font-size: 18px;
+            }
+
+            p {
+                font-size: 13px;
+                line-height: 1.5;
+                color: gray;
+
+                &.strength-text-padding {
+                    padding-top: 8%;
+                }
+            }
+        }
+
+        .strength-body {
+            padding-top: 5%;
+            max-width: 900px;
+            margin: 0 auto;
+
+            .strenght-area {
+                .strength-content {
+                    margin-top: 3.2%;
+                    padding: 2% 6%;
+                    border: 1px solid #232323;
+                    position: relative;
+
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        top: 100%;
+                        left: 50%;
+                        background: #223322;
+                        width: 1px;
+                        height: 30px;
+                    }
+
+                    &:last-child {
+
+                        &::after {
+                            content: '';
+                            position: absolute;
+                            top: 100%;
+                            left: 50%;
+                            background: #223322;
+                            width: 1px;
+                            height: 30px;
+                            display: none
+                        }
+                    }
+
+                    h1 {
+                        font-size: 16px;
+                        line-height: 1.5;
+                    }
+
+                    p {
+                        padding-top: 1%;
+                        line-height: 1.3;
+                        font-size: 13px;
+                    }
+
+                    .number {
+                        position: absolute;
+                        top: 0%;
+                        left: 0%;
+                        background: #a9d38f;
+                        font-style: italic;
+                        width: 40px;
+                        height: 40px;
+                        border-right: 1px solid#232323;
+                        border-bottom: 1px solid#232323;
+                        text-align: center;
+                        color: black;
+                        font-size: 25px;
+                        line-height: 1.5;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 768px) and (min-width: 701px) {
+    .strength-header-banner {
+        margin-left: 0%;
+        margin-right: 5%;
+        background-image: url(../img/strength_banner.png);
+        height: 300px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+
+        .strength-title {
+            padding-top: 10%;
+            text-align: center;
+
+            h1 {
+                line-height: 1.5;
+                font-size: 55px;
+                color: white;
+                text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+            }
+
+            h2 {
+                color: white;
+                text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
+            }
+        }
+    }
+
+    .strength-sec {
+        margin-left: 10px;
+        margin-right: 10px;
+
+        .strength-sec-desc {
+            padding-top: 5%;
+            margin: 0 auto;
+            width: 50%;
+            text-align: center;
+
+            h1 {
+                line-height: 1.5;
+                font-size: 18px;
+            }
+
+            p {
+                font-size: 13px;
+                line-height: 1.5;
+                color: gray;
+
+                &.strength-text-padding {
+                    padding-top: 8%;
+                }
+            }
+        }
+
+        .strength-body {
+            padding-top: 5%;
+            max-width: 900px;
+            margin: 0 auto;
+
+            .strenght-area {
+                .strength-content {
+                    margin-top: 3.8%;
+                    padding: 2% 6%;
+                    border: 1px solid #232323;
+                    position: relative;
+
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        top: 100%;
+                        left: 50%;
+                        background: #223322;
+                        width: 1px;
+                        height: 30px;
+                    }
+
+                    &:last-child {
+
+                        &::after {
+                            content: '';
+                            position: absolute;
+                            top: 100%;
+                            left: 50%;
+                            background: #223322;
+                            width: 1px;
+                            height: 30px;
+                            display: none
+                        }
+                    }
+
+                    h1 {
+                        font-size: 16px;
+                        line-height: 1.5;
+                    }
+
+                    p {
+                        padding-top: 1%;
+                        line-height: 1.3;
+                        font-size: 13px;
+                    }
+
+                    .number {
+                        position: absolute;
+                        top: 0%;
+                        left: 0%;
+                        background: #a9d38f;
+                        font-style: italic;
+                        width: 40px;
+                        height: 40px;
+                        border-right: 1px solid#232323;
+                        border-bottom: 1px solid#232323;
+                        text-align: center;
+                        color: black;
+                        font-size: 25px;
+                        line-height: 1.5;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .strength-header-banner {
+        margin-left: 0px;
+        margin-right: 0px;
+        background-image: url(../img/strength_banner.png);
+        height: 300px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+
+        .strength-title {
+            padding-top: 20%;
+            text-align: center;
+
+            h1 {
+                line-height: 1.5;
+                font-size: 35px;
+                color: white;
+                text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+            }
+
+            h2 {
+                font-size: 20px;
+                color: white;
+                text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.5);
+            }
+        }
+    }
+
+    .strength-sec {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 5%;
+
+        .strength-sec-desc {
+            padding-top: 5%;
+            margin: 0 auto;
+            width: 100%;
+            text-align: center;
+
+            h1 {
+                line-height: 1.5;
+                font-size: 18px;
+            }
+
+            p {
+                font-size: 12px;
+                line-height: 1.5;
+                color: gray;
+
+                &.strength-text-padding {
+                    padding-top: 8%;
+                }
+            }
+        }
+
+        .strength-body {
+            padding-top: 0%;
+            max-width: 900px;
+            margin: 0 auto;
+
+            .strenght-area {
+                .strength-content {
+                    margin-top: 5%;
+                    padding: 2% 2% 2% 13%;
+                    border: 1px solid #232323;
+                    position: relative;
+
+                    &::after {
+                        content: '';
+                        position: absolute;
+                        top: 100%;
+                        left: 50%;
+                        background: #223322;
+                        width: 1px;
+                        height: 20px;
+                    }
+
+                    &:last-child {
+                        &::after {
+                            content: '';
+                            position: absolute;
+                            top: 100%;
+                            left: 50%;
+                            background: #223322;
+                            width: 1px;
+                            height: 30px;
+                            display: none
+                        }
+                    }
+
+                    h1 {
+                        font-size: 15px;
+                        line-height: 1.5;
+                    }
+
+                    p {
+                        padding-top: 1%;
+                        line-height: 1.3;
+                        font-size: 12px;
+                    }
+
+                    .number {
+                        position: absolute;
+                        top: 0%;
+                        left: 0%;
+                        background: #a9d38f;
+                        font-style: italic;
+                        width: 40px;
+                        height: 40px;
+                        border-right: 1px solid#232323;
+                        border-bottom: 1px solid#232323;
+                        text-align: center;
+                        color: black;
+                        font-size: 25px;
+                        line-height: 1.5;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+}
